@@ -15,7 +15,7 @@ import re
 #import midi_to_mat as mm
 import pretty_midi
 
-audio_path='/home/wyc/Desktop/CNN_AMT/data/train/SequenceTest_POLY_0010.wav'
+audio_path='/home/wyc/Desktop/CNN_AMT/SequenceTest_POLY_0010.wav' #any audio input with format wav
 # Set the parameters
 RangeMIDInotes=[21,108]
 sr=44100
