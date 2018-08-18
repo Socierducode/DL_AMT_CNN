@@ -6,6 +6,7 @@ A LeNet-like code for AMT is implemented on Pytorch+Anaconda 2+Ubuntu plateform
 Some dependencies are required to install to run this code:  librosa,pretty_midi
 
 1. Ask MAPS dataset from the following site:
+
 <MAPS dataset> http://www.tsi.telecom-paristech.fr/aao/en/2010/07/08/maps-database-a-piano-database-for-multipitch-estimation-and-automatic-transcription-of-music/
   
 2, concatenate the MAPS downloaded pieces using 'cat name block1 block2> MAPS.zip'
