@@ -146,7 +146,7 @@ def train_val_test_prepa(file_path,output=None,test_list=test_list,val_rate=val_
 
 # Read all files
     file_name=[]
-    for root,dirs,files in os.walk(file_path):   #改名字
+    for root,dirs,files in os.walk(file_path):  
         for file in files:
             a=os.path.join(root,file)
             if a[-3:] in ['mid','wav']: 
