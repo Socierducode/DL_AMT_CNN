@@ -24,7 +24,7 @@ kernel_size=7
 data_dir='/home/wyc/Desktop/toy_dataset'
 win_width=32  #label window, input window=win_width+kernel_size-1
 batch_size=256  #256=32*8=256*1
-model_path='conv'  #choose different model: 'conv','capsnet_dynamic','capsnet_EM','wyc_capsnet'
+model_path='conv'  
 save_dir='/home/wyc/Desktop/model_save'  #model save
 if not os.path.exists(save_dir):
         os.makedirs(save_dir)
