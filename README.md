@@ -14,6 +14,7 @@ Some dependencies are required to install to run this code:  librosa,pretty_midi
 
 --unzip MAPS.zip with p7zip (MAPS volume>4G)
 
+Change your own path in code for following steps:
 -- prepare the MAPS dataset: excute the MAPS_prepare.py
 MAPS_prepare.py includes following function
 -unzip the piano model list (must be defined) to a temporary directory
