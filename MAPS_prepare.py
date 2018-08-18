@@ -15,7 +15,6 @@ import glob
 import numpy as np
 import random
 import librosa as lb
-#import midi_to_mat as mm
 import pretty_midi
 import zipfile
 import sys
