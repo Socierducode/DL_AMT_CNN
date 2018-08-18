@@ -31,12 +31,11 @@ if not os.path.exists(save_dir):
 
 model = import_module(model_path)
 net, loss= model.get_model()
-# n_gpu = setgpu(n_gpu)
-# args.n_gpu = n_gpu
+
 net = net.cuda()
 loss = loss.cuda()
 cudnn.benchmark = True
-net = DataParallel(net)  #neighter gpu set nor device_ids=[1,2,3] means using all GPUs
+net = DataParallel(net) 
 
 dataset=data_loader.data_loader(data_dir,win_width, kernel_size,overlap=True,phase='train')
 train_loader = DataLoader(
@@ -161,4 +160,3 @@ if __name__=='__main__':
         train(train_loader, net, loss, epoch, optimizer, get_lr, save_freq, save_dir,nb_epochs,start_lr)
         validate(val_loader, net, loss)
 
-# onset tracking evaluation
