@@ -7,8 +7,11 @@ Some dependencies are required to run this code:  librosa,pretty_midi
 
 1. Ask MAPS dataset from the following site:
 <MAPS dataset> http://www.tsi.telecom-paristech.fr/aao/en/2010/07/08/maps-database-a-piano-database-for-multipitch-estimation-and-automatic-transcription-of-music/
+  
 2, concatenate the MAPS downloaded pieces using 'cat name block1 block2> MAPS.zip'
+
 3,unzip MAPS.zip with p7zip (MAPS volume>4G)
+
 4, prepare the MAPS dataset:configure the parameters and excute the MAPS_prepare.py
 MAPS_prepare.py includes following function
 -unzip the piano model list (must be defined) to a temporary directory
