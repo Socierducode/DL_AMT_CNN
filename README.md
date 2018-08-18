@@ -3,7 +3,7 @@ Deep learning for Piano Automatic Music Transcription task (CNN demo)
 
 A LeNet-like code for AMT is implemented on Pytorch+Anaconda 2+Ubuntu plateform
 
-Some dependencies are required to run this code:  librosa,pretty_midi
+Some dependencies are required to install to run this code:  librosa,pretty_midi
 
 1. Ask MAPS dataset from the following site:
 <MAPS dataset> http://www.tsi.telecom-paristech.fr/aao/en/2010/07/08/maps-database-a-piano-database-for-multipitch-estimation-and-automatic-transcription-of-music/
